@@ -18,8 +18,8 @@ https://github.com/Chatterjee-Arpan/Semantic_Book_Recommender.git
 OPENAI_API_KEY=###############################
 ```
 
-### STEP 02- Run the Main.ipynb file or install the requirements and run gradio-dashhboard.py
-That's it!
+### STEP 02- Run the Main.ipynb file or install the requirements and run gradio-dashboard.py
+**That's it!**
 
 The following is a description of the components in this repo:
 * `data-explore.ipynb` is used for data exploration
