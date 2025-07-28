@@ -25,7 +25,7 @@ The following is a description of the components in this repo:
 * `data-explore.ipynb` is used for data exploration
 * `vector-search.ipynb` uses Langchain and Langchain's OpenAI embeddings to build a vector database. This allows users to find the most similar books in response to a Natural Language Query (e.g., "a story about revenge").
 * `text-classification.ipynb` does text classification using zero-shot classification from Transformers' "facebook/bart-large-mnli" model. This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on.
-* `sentiment-analysis.ipynb` does sentiment analysis using LLMs to extract the emotions from text. This is done using the "j-hartmann/emotion-english-distilroberta-base" library. This will allow users to sort books by their tone, such as how suspenseful, joyful, or sad the books are.
+* `sentiment-analysis.ipynb` does sentiment analysis using LLMs to extract the emotions from text. This is done using the Transformers' "j-hartmann/emotion-english-distilroberta-base" model. This will allow users to sort books by their tone, such as how suspenseful, joyful, or sad the books are.
 * Finally, **Gradio** is used to create a web application for the users to get book recommendations. (code in `gradio-dashboard.py`)
 
 
